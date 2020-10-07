@@ -1,0 +1,15 @@
+﻿<Window x:Class="T2GoConverterUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:T2GoConverterUI"
+        mc:Ignorable="d"
+        Title="T2Go Converter v2.0" Height="450" Width="304.121">
+    <Grid>
+        <Button Name="GetMeasureButton" Content="Open Measure Files" HorizontalAlignment="Center" Height="27" Margin="37,19,30,0" VerticalAlignment="Top" Width="229" Click="GetMeasureFilesButton_Click"/>
+        <Button Name="ConvertToExcelButton" Content="Convert to Excel" IsEnabled="False"  HorizontalAlignment="Center" Height="27" Margin="37,59,30,0" VerticalAlignment="Top" Width="229" Click="ConvertToExcelButton_Click"/>
+        <Label Content="Info:" HorizontalAlignment="Left" Height="23" Margin="28,102,0,0" VerticalAlignment="Top" Width="54"/>
+        <TextBox Name="InfoTextBox" HorizontalAlignment="Left" Height="273" Margin="28,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="246"/>
+    </Grid>
+</Window>
